@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://mysql.railway.internal:3306/railway
-    username: root
-    password: eYLkppJZiHwuYLcnPgKLJLIrhHkXyZeO
+    url: jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/test
+    username: SHzHokxBxGF762J.root
+    password: 5AbbJqZ6CWOwvsgA
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
