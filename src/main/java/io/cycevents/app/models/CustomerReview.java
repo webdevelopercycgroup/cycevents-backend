@@ -17,6 +17,7 @@ public class CustomerReview {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String customerName;
+    @Column(length = 5000)
     private String review;
     private String profileUrl;
 }
